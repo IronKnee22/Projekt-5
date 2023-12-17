@@ -198,11 +198,10 @@ class MainFrame(customtkinter.CTkFrame):
            
 
             if radio_value == 4: #pokud dělám jenom kroky tak nemusím nic počítat
-                result = int(entry)
+                result = float(entry)
 
             else:
-                sklon = rovnice[index]['sklon']
-                posun = rovnice[index]['posun']
+                
                 akt_hod_mV = svaly[index-1].readA0() #získání aktuální hodnoty v mV 
 
                 if entry !=0:
@@ -216,10 +215,13 @@ class MainFrame(customtkinter.CTkFrame):
                         posun = prepocet[index]['posun']
                         start_hodnta =sklon * akt_hod_mV + posun #převedení hodnoty na správné jednotky
 
-                    konecna_hodnota = int(start_hodnta) + int(entry)  #získání hodnoty na kterou se chceme dostat pomocí startovní + posunu
+                    konecna_hodnota = float(start_hodnta) + float(entry)  #získání hodnoty na kterou se chceme dostat pomocí startovní + posunu
+                    
+                    sklon = rovnice[index]['sklon']
+                    posun = rovnice[index]['posun']
 
                     kon_kroky = (konecna_hodnota - posun) / sklon #přepočet na kroky
-                    start_kroky = int((start_hodnta - posun) / sklon) #přepočet na kroky
+                    start_kroky = float((start_hodnta - posun) / sklon) #přepočet na kroky
 
                     result = kon_kroky - start_kroky #spočítání nutných kroků
                 else:
