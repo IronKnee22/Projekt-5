@@ -1,0 +1,28 @@
+abstrakt se snažit co nejvíce prodloužit aby to bylo aspon na půl stránky
+
+taky tam mohu napsat ohledně toho proč jsem si vybral python a ne zrovna jinej programovací jazyk.
+takže normálně tam mohu dát části svého kódu kde co řeším jako například třeba konkrétí přepočítání mezi rovnicemi
+
+poradit se s martinem co dát jako výsledky. jako určitě tam dát výsledky statistiky ale jestli i to jak se ten sval hýbe nebo ne
+
+diskuzi udělat prostě nějak sáhodlouze zhodnotit co my vyšlo asi to že v eelu to je perfektní ale při pracování na soustavě se nám tam dostává 
+chyba soustavy což dělá neplechu
+
+Napsat tam nějakou honosnou motivaci
+
+přehled současného stavu bych tam napsal jak kde jsme mi tak bych tam napsal jaké jsou jiné obdoby našeho řešení
+
+popsat to jak to tam funguje taky pomocí obrázků
+
+mohl bych tam dát experimenty třeba nějaké ty pohyby tak jak to je třeba příjemné pro pacienta jestli to funguje tak jak 
+
+takže hlavně ovšem psát hodně rozsáhle a na začátku se snažit psát co nejvíce obecně a halvně neustále psát so samé dokolečka ale víc va víc konkrétně
+
+napsat tam ohledně těch doktoru aby tam nemuseli dávat ruce
+
+určitě bych tam mol napsat jak byla soustava sestavena v čem byla programována a tak
+
+do současného stavu to klidně natáhnout na 10 stránek dát tam nejšpíš i to proč tam strkat ruce pravidelně není příliš moudré tak tam dyštak nějak popsat jak 
+přístroj funguje
+
+domluvit se jestli tam nějak udělat nějakou tu dokumentaci nebo postup pro ovládání soustavy
